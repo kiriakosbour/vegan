@@ -1,0 +1,55 @@
+# vegan
+Please run mvn clean install
+The http verb is post the uri --> localhost:8080/conditions and the json is of type:
+{
+   "Condition":{
+      "weight":75.0,
+      "items":[
+         {
+            "id":1,
+            "weight":85.31,
+            "price":29
+         },
+         {
+            "id":2,
+            "weight":14.55,
+            "price":74
+         },
+         {
+            "id":3,
+            "weight":3.98,
+            "price":16
+         },
+         {
+            "id":4,
+            "weight":26.24,
+            "price":55
+         },
+         {
+            "id":5,
+            "weight":63.69,
+            "price":52
+         },
+         {
+            "id":6,
+            "weight":76.25,
+            "price":74
+         },
+         {
+            "id":7,
+            "weight":60.02,
+            "price":74
+         },
+         {
+            "id":8,
+            "weight":93.18,
+            "price":35
+         },
+         {
+            "id":9,
+            "weight":89.95,
+            "price":78
+         }
+      ]
+   }
+}
